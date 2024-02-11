@@ -3,3 +3,76 @@ body {
   font-family: "Poppins", sans-serif;
   color: white;
 }
+a {
+  text-decoration: none;
+}
+
+.myskills {
+  background-color: #3e3e3e;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.html {
+  width: 95%;
+  background-color: #04aa6d;
+} /* Green */
+
+.java {
+  width: 90%;
+  background-color: #2196f3;
+} /* Blue */
+
+.js {
+  width: 70%;
+  background-color: #f44336;
+} /* Red */
+
+.c {
+  width: 70%;
+  background-color: #808080;
+} /* Dark Grey */
+.python {
+  width: 60%;
+  background-color: coral;
+}
+
+.linux {
+  width: 70%;
+  background-color: #808080;
+} /* Dark Grey */
+
+.git {
+  width: 65%;
+  background-color: #f44336;
+} /* Red */
+
+.react {
+  width: 50%;
+  background-color: #04aa6d;
+} /* Green */
+
+.django {
+  width: 20%;
+  background-color: #2196f3;
+} /* Blue */
+
+/* Add CSS animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 3s ease;
+}
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}

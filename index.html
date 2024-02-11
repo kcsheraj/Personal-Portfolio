@@ -14,6 +14,7 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">SherajKC</a>
@@ -31,13 +32,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#about-section"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects-section">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#my-skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
             </li>
           </ul>
         </div>
@@ -45,7 +54,8 @@
     </nav>
 
     <div class="container">
-      <div class="row">
+      <!-- ABOUT -->
+      <div class="row fade-in" id="about-section">
         <div class="col text-center">
           <h1>Hi, I am Sheraj KC.</h1>
           <img
@@ -65,6 +75,181 @@
         <button type="button" class="btn btn-outline-light" id="viewResumeBtn">
           View Resume
         </button>
+      </div>
+
+      <!-- PROJECTS -->
+      <div class="row fade-in" id="projects-section">
+        <div class="col text-center">
+          <h2>Projects</h2>
+          <a
+            href="https://kcsheraj.github.io/Break-The-Scroll/"
+            target="_blank"
+          >
+            <div class="card mb-3">
+              <img
+                src="292804716-8e241ef2-fd23-4cf4-a594-fda28cc9bd19.gif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Break The Scroll</h5>
+                <p class="card-text">
+                  Website designed to combat social media addiction.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://github.com/kcsheraj/Custom-Chrome-Tab-Extension"
+            target="_blank"
+          >
+            <div class="card mb-3">
+              <img
+                src="Screenshot_2024-02-04_at_6.15.33_PM.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Custom Chrome-Tab Extension</h5>
+                <p class="card-text">
+                  A custom tab extenstion with features including landscape
+                  screenscavers, motivational quotes, and a Pomodoro timer.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://kcsheraj.github.io/Google-Clone-Poodle/"
+            target="_blank"
+          >
+            <div class="card mb-3">
+              <img
+                src="299532867-4ba97c4e-d144-41d7-902e-7ac16d60e3fc.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Poodle</h5>
+                <p class="card-text">
+                  Recreation of Google's landing page with working search bar,
+                  image search, advanced search, and "I'm Feeling Lucky" button.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://github.com/kcsheraj/TicTacToe-with-AI"
+            target="_blank"
+          >
+            <div class="card mb-3">
+              <img
+                src="294778078-8bd0717c-01d7-44eb-bf26-309f2553e47e.gif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tic-Tac-Toe With Unbeatable AI</h5>
+                <p class="card-text">
+                  Java-based Tic-Tac-Toe game featuring both user-versus-user
+                  mode and an unbeatable AI opponent. The AI opponent utilizes
+                  the MiniMax algorithm through recursion to make strategic
+                  moves.
+                </p>
+              </div>
+            </div>
+          </a>
+          <a href="https://k7mvkx.csb.app/" target="_blank">
+            <div class="card mb-3">
+              <img
+                src="Screenshot 2024-02-10 at 6.10.30 PM.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tic-Tac-Toe With History</h5>
+                <p class="card-text">
+                  Multiplayer Tic-Tac-Toe website in React with a
+                  history-tracking feature. Built to learn fundamentals of
+                  React.js
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- MY SKILLS -->
+      <div class="row fade-in text-center" id="my-skills-section">
+        <h2>My Skills</h2>
+
+        <div class="col text-center">
+          <h4>Programming Languages</h4>
+          <p>HTM/CSS</p>
+          <div class="skills html"></div>
+
+          <p>Java</p>
+          <div class="skills java"></div>
+
+          <p>JavaScript</p>
+          <div class="skills js"></div>
+
+          <p>C</p>
+          <div class="skills c"></div>
+
+          <p>Python</p>
+          <div class="skills python"></div>
+        </div>
+
+        <div class="col text-center">
+          <h4>Technologies</h4>
+
+          <p>Linux</p>
+          <div class="skills linux"></div>
+
+          <p>Git</p>
+          <div class="skills git"></div>
+
+          <p>React</p>
+          <div class="skills react"></div>
+
+          <p>Django</p>
+          <div class="skills django"></div>
+        </div>
+      </div>
+
+      <!-- CONTACT ME -->
+      <div
+        class="row fade-in text-center justify-content-center"
+        id="contact-section"
+      >
+        <h2>Contact Me</h2>
+        <div class="col-auto">
+          <a href="mailto:sherajkc@gmail.com" target="_blank">
+            <img
+              src="Screenshot 2024-02-10 at 8.47.53 PM.png"
+              class="img-thumbnail"
+              alt="my email"
+            />
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="https://www.linkedin.com/in/sheraj-kc/" target="_blank">
+            <img
+              src="Screenshot 2024-02-10 at 8.40.30 PM.png"
+              class="img-thumbnail"
+              alt="my linkedin"
+            />
+          </a>
+        </div>
+        <div class="col-auto">
+          <a href="https://github.com/kcsheraj" target="_blank">
+            <img
+              src="Screenshot 2024-02-10 at 8.48.07 PM.png"
+              class="img-thumbnail"
+              alt="my github"
+            />
+          </a>
+        </div>
       </div>
     </div>
 
