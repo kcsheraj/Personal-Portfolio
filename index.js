@@ -31,5 +31,3 @@ for (let i = 0; i < numStars; i++) {
   star.style.left = `${Math.random() * 100}%`;
   container.appendChild(star);
 }
-
-//Nav Bar animation
