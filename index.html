@@ -14,10 +14,14 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="stars-background">
+      <!-- Stars will be generated here -->
+    </div>
+
     <!-- NAV BAR -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">SherajKC</a>
+        <a class="navbar-brand" href="#">Sheraj KC</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -30,7 +34,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a
                 class="nav-link active"
@@ -54,31 +58,50 @@
     </nav>
 
     <div class="container">
-      <!-- ABOUT -->
-      <div class="row fade-in" id="about-section">
+      <!-- MAIN -->
+      <div class="row fade-in section" id="main">
         <div class="col text-center">
-          <h1>Hi, I am Sheraj KC.</h1>
+          <h1 class="title">SHERAJ KC</h1>
+          <h5 class="title">SOFTWARE ENGINEERING</h5>
           <img
             src="1669398183401.jpeg"
             alt="personal photo"
-            class="img-fluid rounded d-block mx-auto"
+            class="img-fluidd-block mx-auto profile-image"
           />
-          <h3>
+          <h4>Welcome to my personal portfolio!</h4>
+          <button
+            type="button"
+            class="btn btn-outline-light"
+            id="viewResumeBtn"
+          >
+            View Resume
+          </button>
+        </div>
+      </div>
+
+      <div class="row fade-in section text-center" id="about-section">
+        <h2 id="about-headder">About</h2>
+        <div class="col text-center">
+          <img
+            src="personal photo.jpg"
+            alt="personal photo"
+            class="img-fluidd-block mx-auto second-profile-pic"
+          />
+        </div>
+        <div class="col text-center">
+          <h4>
             I am a sophomore CS student at George Mason University. I am
             constantly learning new technologies and expanding my knowledge in
             the field of computer science. Throughout my academic journey, I
             have honed my skills in various programming languages and
             technologies With a natural inclination towards planning ahead, I am
             confident in my ability to excel in the software development field.
-          </h3>
+          </h4>
         </div>
-        <button type="button" class="btn btn-outline-light" id="viewResumeBtn">
-          View Resume
-        </button>
       </div>
 
       <!-- PROJECTS -->
-      <div class="row fade-in" id="projects-section">
+      <div class="row fade-in section" id="projects-section">
         <div class="col text-center">
           <h2>Projects</h2>
           <a
@@ -179,7 +202,7 @@
       </div>
 
       <!-- MY SKILLS -->
-      <div class="row fade-in text-center" id="my-skills-section">
+      <div class="row fade-in text-center section" id="my-skills-section">
         <h2>My Skills</h2>
 
         <div class="col text-center">
@@ -219,7 +242,7 @@
 
       <!-- CONTACT ME -->
       <div
-        class="row fade-in text-center justify-content-center"
+        class="row fade-in text-center justify-content-center section"
         id="contact-section"
       >
         <h2>Contact Me</h2>

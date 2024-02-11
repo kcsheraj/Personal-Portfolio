@@ -1,3 +1,4 @@
+// PDF link
 document.getElementById("viewResumeBtn").addEventListener("click", function () {
   window.open("Sheraj_KC_Resume.pdf", "_blank");
 });
@@ -19,3 +20,16 @@ function checkScroll() {
 window.addEventListener("scroll", checkScroll);
 window.addEventListener("resize", checkScroll);
 checkScroll();
+
+// Generate Stars
+const numStars = 100; // Adjust the number of stars as needed
+const container = document.querySelector(".stars-background");
+for (let i = 0; i < numStars; i++) {
+  const star = document.createElement("div");
+  star.classList.add("stars");
+  star.style.top = `${Math.random() * 100}%`;
+  star.style.left = `${Math.random() * 100}%`;
+  container.appendChild(star);
+}
+
+//Nav Bar animation
