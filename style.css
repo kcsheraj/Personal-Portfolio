@@ -64,6 +64,20 @@ body {
   margin-top: 30px; /* Add more top margin to increase space */
 }
 
+/* Static glow for mobile devices */
+@media (max-width: 768px) {
+  .profile-image {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); /* Static glow */
+  }
+}
+
+/* Animated glow for desktops */
+@media (min-width: 769px) {
+  .profile-image {
+    animation: glow 8s infinite alternate; /* Adjust the duration and other animation properties as needed */
+  }
+}
+
 @keyframes glow {
   0% {
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.5); /* Initial glow */
