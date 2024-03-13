@@ -61,7 +61,7 @@ body {
   height: auto; /* Maintain aspect ratio */
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   animation: glow 5s infinite alternate; /* Adjust the duration and other animation properties as needed */
-  margin-top: 40px; /* Add more top margin to increase space */
+  margin-top: 30px; /* Add more top margin to increase space */
 }
 
 @keyframes glow {
@@ -69,7 +69,7 @@ body {
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.5); /* Initial glow */
   }
   100% {
-    box-shadow: 0 0 80px 10px rgba(255, 255, 255, 0.9); /* Final glow */
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.9); /* Final glow */
   }
 }
 
