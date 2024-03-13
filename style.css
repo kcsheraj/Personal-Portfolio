@@ -69,7 +69,7 @@ body {
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.5); /* Initial glow */
   }
   100% {
-    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.9); /* Final glow */
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.9); /* Final glow */
   }
 }
 
