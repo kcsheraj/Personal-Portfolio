@@ -49,10 +49,19 @@ body {
   letter-spacing: 25px; /* Adjust the value as needed */
   padding: 15px;
 }
+@media (max-width: 576px) {
+  .title {
+    font-size: 16px; /* Adjust the font size for smaller screens */
+    letter-spacing: 15px; /* Adjust letter spacing accordingly */
+  }
+}
 
 .profile-image {
+  width: 300px; /* Specify the desired width */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   animation: glow 5s infinite alternate; /* Adjust the duration and other animation properties as needed */
+  margin-top: 40px; /* Add more top margin to increase space */
 }
 
 @keyframes glow {
@@ -67,7 +76,7 @@ body {
 h4 {
   font-size: 18px; /* Adjust the font size as needed */
   line-height: 1.6; /* Adjust the line height for better readability */
-  margin-top: 20px; /* Add some top margin for spacing */
+  margin-top: 85px; /* Add some top margin for spacing */
   margin-bottom: 20px; /* Add some bottom margin for spacing */
 }
 
