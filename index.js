@@ -1,6 +1,6 @@
 // PDF link
 document.getElementById("viewResumeBtn").addEventListener("click", function () {
-  window.open("Sheraj_KC_Resume.pdf", "_blank");
+  window.open("Sheraj_KC_Resume_2025.pdf", "_blank");
 });
 
 // Add JavaScript to trigger animations on scroll
